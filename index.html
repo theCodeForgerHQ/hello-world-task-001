@@ -9,6 +9,7 @@
         body {
             font-family: sans-serif;
             display: flex;
+            flex-direction: column; /* Arrange items vertically */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -18,11 +19,27 @@
         h1 {
             color: #333;
         }
+        pre {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 1em;
+            text-align: left;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
 
     <h1>Hello, World!</h1>
+<pre># Markdown Content
+
+This is some raw markdown content displayed in a preformatted block.
+
+## A List
+- List item 1
+- List item 2
+- List item 3
+</pre>
 
     <script>
         // All JavaScript must be in <script> tags. No JavaScript is required for this simple page.
