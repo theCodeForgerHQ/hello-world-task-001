@@ -23,3 +23,16 @@ The application will be evaluated against the following criteria:
 ## 5. License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
+
+
+---
+
+## Round 2 Update
+
+**New Brief:**
+> Update the existing page. Below the Hello, World! heading, add a preformatted text block (`<pre>`) and display the raw content from the attached `content.md` file inside it.
+
+**New Checks:**
+- The h1 with Hello, World! is still present
+- The page contains a `<pre>` element
+- The text inside the `<pre>` element includes the phrase List item 1
